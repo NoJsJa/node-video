@@ -15,13 +15,13 @@ body {
 
 header{
     width: 70%;
-    height: 5em;
+    height: 4em;
     margin: 0px auto;
     margin-bottom: 1em;
     margin-top: 1em;
     min-width: 40em;
     text-align: center;
-    line-height: 5em;
+    line-height: 4em;
     background-color: #9bcdff/* #c0c0c0 */;
     text-align: center;
     border: solid 2px grey;
@@ -76,12 +76,12 @@ header label{
     border: solid 1px blue;
     margin: 0 auto;
     margin-top: 2em;
-    min-width: 58em;
+    min-width: 67em;
     background-color: #7d83a2;
 }
 #canvasDiv{
     float:right;
-    width: 40%;
+    width: 50%;
     height: 100%;
     text-align: center;
 }
@@ -95,8 +95,12 @@ header label{
     background-color: #c6c6c6;
 }
 
+#canvas{
+	width: 60%;
+}
+
 #chatDiv{
-    width: 60%;
+    width: 50%;
     height: 80%;
     background-color: #b3b9c8;
 }
@@ -117,7 +121,8 @@ header label{
 }
 #test{
     margin:0px auto;
-    width: 40em;
+    width: 70%;
+    min-width: 30em;
     height: 2em;
 }
 
@@ -222,4 +227,8 @@ header label{
     -moz-opacity:0.90;
     -khtml-opacity: 0.90;
     opacity: 0.90;
+}
+
+.font{
+	
 }
